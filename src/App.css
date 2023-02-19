@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+.app {
+  text-align: center;
+}
+.menu-btn{
+  width: 210px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  background-color: aqua;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+.app h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+.crud-btn{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.crud-btn:hover{
+  text-decoration: underline;
+}
+nav{
+  position: absolute;
+  width: 210px;
+  margin-left: 110px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgba(102, 102, 102, 0.329);
+}
+.menu-btn:hover{
+  background-color: rgb(58, 196, 206)
+}
+.add-input{
+  padding: 5px;
+  width: 240px;
+  height: 35px;
+  margin-right: 8px;
+  border: 1px solid black;
+}
+.add-btn{
+  height: 35px;
+  width: 80px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(112, 255, 243);
+}
+.update-btn{
+  height: 24px;
+  width: 60px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: 'Poppins', sans-serif;
+}
+.update-input{
+  padding: 5px;
+  width: 180px;
+  height: 24px;
+  margin-right: 8px;
+  border: 1px solid black;
+}
+.add-btn:hover{
+  background-color: rgb(58, 196, 206);
+  box-shadow: 0ch 0ch 0.5ch 0.1ch rgb(58, 196, 206);
+}
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 12px 0;
+}
+.delete-btn {
+  font-size: 16px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.display-none {
+  display: none;
+}
